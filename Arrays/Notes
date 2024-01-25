@@ -1,0 +1,49 @@
+ARRAYS
+=========================================================================================================================================================================================================
+
+- Arrays are fundamental data structures in programming that allow you to store a collection of elements of the same type under a single variable name.
+- In C#, arrays have fixed sizes, meaning once you declare an array with a certain size, you cannot change its size.
+
+
+DECLARATION OF ARRAYS
+---------------------
+Syntax: <Data Type> [ ] <Array_Name>
+eg: int[] x;  // can store int values
+    string[] s; // can store string values
+    Student[] stud1; // can store instances of Student class which is custom class
+
+
+INITIALIZATION OF ARRAYS
+------------------------
+An array is a reference type so the new keyword used to create an instance of the array.
+Syntax: type[ ]  <Array_Name> = new  <datatype>[size];
+eg: int[] y= new int[5] 
+
+
+<<<<<<<<PROPERTIES>>>>>>>>>>>
+1.ACCESSING ELEMENTS
+------------------
+You can access individual elements of an array using square brackets [].
+Array indices start from 0.
+
+2.LENGTH PROPERTY
+-----------------
+The Length property returns the total number of elements in the array.
+
+3.LOOPING THROUGH AN ARRAY
+-------------------------
+You can use loops like for or foreach to iterate over array elements.
+
+
+TYPES
+------
+1.Multi-dimensional Arrays: 
+You can create arrays with multiple dimensions.
+
+2. Jagged Arrays:
+Jagged arrays are arrays of arrays where each element can be an array itself.
+
+
+
+
+
